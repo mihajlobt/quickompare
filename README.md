@@ -1,4 +1,4 @@
-## CLI Weather App
+## CLI JSON Compare app
 
 #### Libraries Used
 * [Commander](https://github.com/tj/commander.js/) - for command line handling
@@ -22,6 +22,12 @@
     run 'yarn link' and use the app directly from the command line with its name: 
     $ quickompare --compare <items>
     
+
+    Example:
+
+    $ quickompare --compare /Users/username/Documents/firstFile.json,/Users/username/Documents/secondFile.json
+
+    Paths should be divided with a comma and no whitespaces inbetween.
 
 ##### App help - to list all options and get help
     yarn start --help
