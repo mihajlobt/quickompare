@@ -28,8 +28,9 @@ Example:
     $ quickompare --compare /Users/username/Documents/firstFile.json,/Users/username/Documents/secondFile.json
 
 Paths should be divided with a comma and no whitespaces inbetween.
+In data folder, there are sample JSON files that can be used for testing.
 
-##### App help - to list all options and get help
+#### App help - to list all options and get help
     yarn start --help
 
 or
