@@ -6,7 +6,7 @@
 * [StringSimilarity](https://github.com/aceakash/string-similarity) - for comparing strings
 
 #### Features
-* Minimal interface
+* Minimal interface and libraries used, for optimal speed.
 * NodeJS ESM modules
 * ES6 Syntax
 
@@ -17,22 +17,22 @@
 #### How to Use
     use 'yarn start --compare <items>'
 
-    or
+or
     
     run 'yarn link' and use the app directly from the command line with its name: 
     $ quickompare --compare <items>
     
 
-    Example:
+Example:
 
     $ quickompare --compare /Users/username/Documents/firstFile.json,/Users/username/Documents/secondFile.json
 
-    Paths should be divided with a comma and no whitespaces inbetween.
+Paths should be divided with a comma and no whitespaces inbetween.
 
 ##### App help - to list all options and get help
     yarn start --help
 
-    or
+or
 
     quickompare --help
     
