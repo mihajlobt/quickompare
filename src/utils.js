@@ -37,8 +37,8 @@ const compareJSON = (firstFilePath, secondFilePath) => {
 }
 
 const printResult = (result) => {
-    const percentage = (result * 100).toFixed(1)
-    console.log(chalk.blue(`JSON objects are ${chalk.green(percentage)}% similar, or ${chalk.green(result.toFixed(1))}`))
+    const percentage = result * 100
+    console.log(chalk.blue(`JSON objects are ${chalk.green(percentage.toFixed(2))}% similar, or ${chalk.green(result.toFixed(2))}`))
 }
 
 export {
